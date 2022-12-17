@@ -4,7 +4,7 @@ public class Prime {
 
     public static void main(String[] args){
     Scanner scanner = new Scanner(System.in);
-	    
+	    System.out.println("Program to check if a number is prime or not");
 	    System.out.println("Enter a number to check prime or not");
 	    int choice = scanner.nextInt();
 	    
@@ -23,6 +23,6 @@ public class Prime {
 	    else {
 	    	System.out.println("Prime");
 	    }
-	    
+	    scanner.close();
     }
 }
